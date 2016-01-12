@@ -1,0 +1,34 @@
+#newbar {
+    position: relative;
+    z-index: 100;
+    /*background: #111 url(http://s.twimg.com/a/1290471375/images/whatsnew/bg-newbar.jpg) repeat-x 0 0;*/
+    color: #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    min-height: 40px;
+}
+
+#newbar2 {
+    width: 936px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font: bold 13px/19px "Helvetica Neue", Arial, Sans-serif;
+    text-align: left;
+}
+
+#newbar strong {
+    color: #fff;
+}
+
+#newbar a {
+    color: #7df;
+}
+
+#newbar a.hashtag {
+    color: #999;
+    font-weight: normal;
+}
+
+#newbar a.hashtag:hover {
+    color: #ccc;
+}
